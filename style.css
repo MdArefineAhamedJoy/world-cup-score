@@ -12,6 +12,7 @@ body{
 main{
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 /* header section start */
 header{
@@ -56,6 +57,55 @@ header{
   width:581px;
   height:613px; 
   padding-bottom: 0;
+}
+/* header end */
+aside a{
+  text-decoration: none;
+  color:black;
+  background-color: azure;
+  text-align: center;
+  margin-top: 22px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  display: block;
+  font-size: 20px;
+}
+#blog-color{
+  background-color: crimson;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:24px;
+}
+.macth-all{
+  width: 312px;
+  height: 362px;
+}
+.macth-img{
+  width: 312px;
+  height: 175px;
+  border-radius: 10px 10px 0px 0px;
+}
+.macth-dtl{
+  padding: 20px;
+}
+.macth-dtl a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  border: 1px solid black;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.macth-dtl h3{
+  font-size: 18px;
+}
+.icon-style{
+  display: flex;
+}
+.icon-gap{
+  margin-left: 30px;
 }
 /* footer sectito */
 footer{

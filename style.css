@@ -45,7 +45,7 @@ header{
   text-decoration: none;
   display: inline-block;
   padding: 16px 25px;
-  background-color:  #DD0000;
+  background-color:  #dd0000a5;
   border-radius: 5px;
   color: #ffffff;
 }
@@ -58,7 +58,7 @@ header{
 .banner-section img{
   width:581px;
   height:613px; 
-  padding-bottom: 0;
+  margin-bottom:-155px;
 }
 /* header end */
 article{
@@ -92,7 +92,9 @@ aside a{
   font-size: 20px;
 }
 #blog-color{
-  background-color: crimson;
+  background-color: rgb(245, 0, 49);
+  border: 2px solid palevioletred;
+  text-shadow: 5px 5px 10px;
 }
 .container{
   display: grid;
@@ -160,6 +162,17 @@ nav a{
   text-decoration: none;
   color: bisque;
 }
+.socile-icon{
+  display: flex;
+  justify-content: center;
+  color: floralwhite;
+}
+.socile-icon .fa-brands {
+  margin: 25px;
+  padding: 5px 30px;
+  background-color: rgba(215, 106, 106, 0.657);
+
+}
 /* 
              Media queries Resposive     
 ----------------------------------------------*/
@@ -214,10 +227,14 @@ header section  mobile
  }
   .banner-section img{
     margin-top: 40px;
+    margin-bottom: -40px;
    width: 100%;
   }
   .icon-gap{
    margin: 0 -0px 0 -39px;
+  }
+  aside{
+    margin: 26px 0 ;
   }
   /* ---------------------------
   article section
@@ -238,7 +255,7 @@ article{
   margin-top:10px;
   border-radius: 15px;
 }
-  footer{
+  .center-aling{
    display: flex;
    flex-direction: column;
   }
@@ -259,16 +276,21 @@ article{
     margin-top: 16px;
     font-size: 14px;
   }
+  .socile-icon{
+  display: none;
+  }
+  
 }
 /* media tab */
 @media only screen and (min-width:577px) and (max-width:992px) {
   main{
-    width: 100%;
     overflow: hidden;
-    background-color: #DD0000;
+    display: block;
+    width: 100%;
+    background-color:#ffffff;
   }
   header{
-  width: 90%;
+  width: 734px;
  }
  .title-text{
   font-size:40px;
@@ -283,32 +305,47 @@ article{
  } 
 
  aside{
-  width: 80%;
-  border-radius: 2px;
-  margin:0 18% 0 20%;
-  flex-direction: row;
   display:flex;
+  width: 80%;
+  background-color: #27159e9b;
   justify-content: space-evenly;
-  height: 64px;
+  border-radius: 2px;
+  flex-direction: row;
+  height: 100px;
+  margin-bottom: 30px;
  }
  aside a{
- width: 230px;;
+  padding:5px 20px;
+  margin: 10px;
+  width: 300px;
+
+ }
+ aside a:hover{
+  border: 2px solid red;
  }
 .macth-all{
   display: grid;
   grid-template-columns: repeat(2,fr);
 }
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
 
+article{
+  width: 80%;
+  display: block;
+  justify-content: center;
+}
  footer{
-  margin-top: 0;
     width: 100%;
-    height: 40vh;
+    height: 30vh;
   }
 .center-aling h1{
-  padding: 20px;
+  padding: 70px;
 }
 hr{
-  margin: 10px;
+  margin: 5px;
 }
 nav , ul ,li{
   margin:5px 0 ;

@@ -141,7 +141,7 @@ footer{
 .center-aling h1{
   display: flex;
   justify-content: center;
-  color: #ffffff;
+  color: whitesmoke;
   padding-top: 100px;
 }
 hr{
@@ -167,7 +167,7 @@ header section  mobile
 
 @media only screen and (max-width:576px) {
   body{
-    background-color: #bb3c3c;
+    background-color: #ffffff;
   }
   header{
     width: 90%;
@@ -220,6 +220,9 @@ article{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.macth-all{
+  margin-top:10px;
 }
   footer{
    display: flex;

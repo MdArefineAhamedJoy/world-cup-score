@@ -197,7 +197,7 @@ header section  mobile
   .title-ditails{
     display: flex;
     justify-content: center;
-    margin:20px 20% ;
+    margin:50px 20% 0 20% ;
     font-size: 18px;
     justify-items: center;
    width: 60%;
@@ -210,6 +210,7 @@ header section  mobile
   margin-bottom: 10px;
  }
   .banner-section img{
+    margin-top: 40px;
    width: 100%;
   }
   .icon-gap{

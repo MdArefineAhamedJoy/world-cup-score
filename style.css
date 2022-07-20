@@ -189,9 +189,15 @@ header section  mobile
     text-align: center;
     padding: 0 20px;
   }
+  .macth-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .title-ditails{
     display: flex;
-    margin:0 20%;
+    justify-content: center;
+    margin:20px 20% ;
     font-size: 18px;
     justify-items: center;
    width: 60%;
@@ -205,6 +211,9 @@ header section  mobile
  }
   .banner-section img{
    width: 100%;
+  }
+  .icon-gap{
+   margin: 0 -0px 0 -39px;
   }
   /* ---------------------------
   article section
@@ -223,6 +232,7 @@ article{
 }
 .macth-all{
   margin-top:10px;
+  border-radius: 15px;
 }
   footer{
    display: flex;

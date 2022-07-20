@@ -9,16 +9,19 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
-article{
+main{
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
 }
 /* header section start */
+
 header{
   width: 1200px;
   height: 646px;
   background-color: black;
   border-radius: 40px;
+  margin:30px 0 144px 0;
 }
 .container{
   display: flex;
@@ -58,15 +61,31 @@ header{
   padding-bottom: 0;
 }
 /* header end */
-
+article{
+  display: flex;
+  margin:0 20px 130px 20px;
+  width: 1200px;
+}
+aside{
+  width:252px;
+  margin:20px 0 ;
+  border-radius: 20px;
+  height: 252px;
+  padding: 30px;
+  background-color: black;
+}
 aside a{
+  width: 100%;
   text-decoration: none;
   color:black;
   background-color:aliceblue;
   text-align: center;
-  margin-top: 22px;
-  padding: 15px 10px;
-  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
+  padding: 15px 2px;
+  border-radius: 5px;
   display: block;
   font-size: 20px;
 }
@@ -76,11 +95,13 @@ aside a{
 .container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap:10px;
+  grid-gap:8px;
 }
 .macth-all{
-  width: 312px;
+   /* width: 300px; */
+  border-radius: 20px;
   height: 362px;
+  box-shadow: 5px 2px 8px;
 }
 .macth-img{
   width: 312px;
@@ -99,13 +120,16 @@ aside a{
   border-radius: 5px;
 }
 .macth-dtl h3{
+  margin-top: 10px;
   font-size: 18px;
 }
 .icon-style{
   display: flex;
+  margin-top: 30px;
+
 }
 .icon-gap{
-  margin-left: 30px;
+  margin-left: 40px;
 }
 /* footer sectito */
 footer{

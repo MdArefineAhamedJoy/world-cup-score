@@ -67,15 +67,17 @@ article{
   width: 1200px;
 }
 aside{
-  width:252px;
-  margin:20px 0 ;
-  border-radius: 20px;
+  display:flex;
+  margin-right: 20px;
+  flex-direction: column;
+  width: 332px;
   height: 252px;
-  padding: 30px;
+  border-radius: 20px;
+  padding: 0 30px; 
   background-color: black;
 }
 aside a{
-  width: 100%;
+  /* width: 100%; */
   text-decoration: none;
   color:black;
   background-color:aliceblue;
@@ -84,7 +86,7 @@ aside a{
   justify-content: center;
   align-items: center;
   margin: 12px 0;
-  padding: 15px 2px;
+  padding: 5px 2px;
   border-radius: 5px;
   display: block;
   font-size: 20px;
@@ -255,6 +257,50 @@ article{
     justify-content: center ;
     margin-top: 16px;
     font-size: 14px;
+  }
+}
+/* media tab */
+@media only screen and (min-width:577px) and (max-width:992px) {
+  header{
+  width: 90%;
+ }
+ .title-text{
+  font-size:40px;
+  font-weight: 700;
+ }
+ .title-ditails{
+  font-size: 14px;
+  margin:10px 0 20px 0;
+ }
+ .banner-section img{
+  width: 100%;
+ } 
+ /* header part end */
+ /* article{
+  grid-template-columns: repeat(2,1fr);
+ } */
+ aside{
+  width: 80%;
+  border-radius: 2px;
+  margin:0 18% 0 20%;
+  flex-direction: row;
+  display:flex;
+  justify-content: space-evenly;
+  height: 64px;
+ }
+ aside a{
+ width: 230px;;
+ }
+.macth-all{
+  display: grid;
+  grid-template-columns: repeat(2,fr);
+}
+
+.container{
+  display: none;
+}
+ footer{
+    display: none;
   }
 }
 

@@ -98,39 +98,23 @@ aside a{
   grid-gap:8px;
 }
 .macth-all{
-   /* width: 300px; */
-  border-radius: 20px;
-  height: 362px;
-  box-shadow: 5px 2px 8px;
-}
-.macth-img{
-  width: 312px;
-  height: 175px;
-  border-radius: 10px 10px 0px 0px;
-}
-.macth-dtl{
-  padding: 20px;
-}
-.macth-dtl a{
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-  border: 1px solid black;
-  padding: 0 20px;
-  border-radius: 5px;
-}
-.macth-dtl h3{
-  margin-top: 10px;
-  font-size: 18px;
-}
-.icon-style{
   display: flex;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  width:312px;
+  height: 242px;
+  border-radius: 20px;
+  text-align: center;
+ border:1px solid #DD0000;
+}
+.macth-all span{
+  padding: 0 10px;
+}
+.macth-all h3 ,p{
+ margin: 10px 0 ;
+}
 
-}
-.icon-gap{
-  margin-left: 40px;
-}
+
 /* footer sectito */
 footer{
   margin-top: 50px;

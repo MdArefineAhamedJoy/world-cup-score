@@ -163,11 +163,15 @@ hr{
   border: 0.5px solid whitesmoke;
   margin: 50px 0;
 }
+nav{
+  background-color: rgba(0, 0, 0, 0.848) ;
+}
 nav,ul, li{
  display: flex;
  justify-content: space-evenly;
  padding: 3px 30px;
  font-size: 12px;
+
 }
 nav a{
   text-decoration: none;

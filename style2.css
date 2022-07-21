@@ -114,7 +114,14 @@ aside a{
 .macth-all h3 ,p{
  margin: 10px 0 ;
 }
-
+/* button only tab */
+.tab-button a{
+  background-color: #DD0000;
+  text-align: center;
+  text-decoration: none;
+  padding:12px;
+  display: none;
+}
 
 /* footer sectito */
 footer{

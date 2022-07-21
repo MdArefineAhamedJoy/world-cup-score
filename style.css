@@ -77,7 +77,6 @@ aside{
   background-color: black;
 }
 aside a{
-  /* width: 100%; */
   text-decoration: none;
   color:black;
   background-color:aliceblue;
@@ -102,7 +101,6 @@ aside a{
   grid-gap:8px;
 }
 .macth-all{
-   /* width: 300px; */
   border-radius: 20px;
   height: 362px;
   box-shadow: 5px 2px 8px;
@@ -135,6 +133,19 @@ aside a{
 .icon-gap{
   margin-left: 40px;
 }
+/* button only tab */
+.tab-button{
+  display: none; 
+}
+.tab-button a{
+  background-color: #DD0000;
+  text-align: center;
+  text-decoration: none;
+  padding:12px 20px;
+  color: #ffffff;
+
+}
+
 /* footer sectito */
 footer{
   margin-top: 50px;
@@ -337,6 +348,22 @@ article{
   display: block;
   justify-content: center;
 }
+/* tap button */
+.tab-button{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
+.tab-button a{
+  display: inline-block;
+  background-color: #DD0000;
+  text-align: center;
+  text-decoration: none;
+  padding:12px 20px;
+  color: #ffffff;
+
+}
  footer{
     width: 100%;
     height: 30vh;
@@ -355,5 +382,5 @@ nav , ul ,li{
 nav ,ul ,li ,a{
   justify-content: space-around;
 }
-}
+
 

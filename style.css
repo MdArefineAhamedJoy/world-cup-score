@@ -163,9 +163,7 @@ hr{
   border: 0.5px solid whitesmoke;
   margin: 50px 0;
 }
-nav{
-  background-color: rgba(0, 0, 0, 0.848) ;
-}
+
 nav,ul, li{
  display: flex;
  justify-content: space-evenly;
@@ -181,7 +179,7 @@ nav a{
   display: flex;
   justify-content: center;
   color: floralwhite;
-  background-color: rgba(0, 0, 0, 0.848);
+
 }
 .socile-icon .fa-brands {
   margin: 2px  25px 25px 25px;

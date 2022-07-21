@@ -177,9 +177,10 @@ nav a{
   display: flex;
   justify-content: center;
   color: floralwhite;
+  background-color: rgba(0, 0, 0, 0.848);
 }
 .socile-icon .fa-brands {
-  margin: 25px;
+  margin: 2px  25px 25px 25px;
   padding: 5px 30px;
   background-color: rgba(215, 106, 106, 0.657);
 
